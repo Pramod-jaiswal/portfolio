@@ -1,0 +1,247 @@
+body{
+  background-image: url(https://wallpaper-house.com/data/out/9/wallpaper2you_318241.jpg);
+  background-color: black;
+  height:100%;
+  width: auto;
+  margin-left:3vw;
+  margin-right: 3VW;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  border:2px solid white;
+  padding:2vw 2vw;
+  border-radius:2vw;
+}
+#active {
+  color:#1109f4;
+  border:.5px solid blue;
+  background-color: #ace2e2;
+   border-radius: 10px;
+  text-shadow: 2px 2px blue;
+  transition-delay: 0;
+  letter-spacing: .4vw;
+  transition: letter-spacing .5s;
+  transition-timing-function: ease-in;
+}
+/* positioning of nav bar */
+.nav a{
+  /* border:.5px solid blue;
+  border-radius: 2px; */
+  letter-spacing: .1vw;
+  display:inline;
+  /* margin-right:1vw; */
+  text-decoration: none;
+  font-size: 2.5vw;
+   font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  padding-left: 2vw;
+  padding-right: 1vw;
+  color:blue;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.4)
+}
+.nav .logo{
+  margin-left:0;
+
+  font-size: 3vw;
+   font-family: 'Lobster', cursive;
+  font-weight: 400;
+  padding-right: 8vw;
+  /* margin-right: .5vw; */
+  float: left;
+  color:#e01f1f;
+  text-shadow: 8px 4px 2px rgba(0,0,0,0.4),
+               8px 20px 23px rgba(0,0,0,0.4),
+               8px 23px 25px rgba(0,0,0,0.4)
+}
+.nav{
+  /* border: .5px solid #a0bbe8; */
+border-radius: 1vw;
+ background-color:white;
+ opacity: .8;
+  /* position: fixed; */
+  padding-left: 1vw;
+  /* margin-top:3vh; */
+  padding-right: 1vw;
+  padding-top: .5vw;
+  padding-bottom: .6vh;
+  box-shadow: 1px 2px 2px #a0bbe8;
+}
+.nav li{
+    text-align: center;
+  display:inline;
+ }
+ /*effects on nav when hover*/
+.nav li a:hover{
+  color:#1109f4;
+  border:.5px solid blue;
+  background-color: #ace2e2;
+   border-radius: 10px;
+  text-shadow: 2px 2px blue;
+  transition-delay: 0;
+  letter-spacing: .8vw;
+  transition: letter-spacing .5s;
+  transition-timing-function: ease-in;
+}
+.nav{
+  transition-delay: 1s;
+ animation-duration: 1.3s;
+ animation-name: slidein;
+}
+/* slidein of navigation bar */
+@keyframes slidein {
+ from {
+   margin-left: 100%;
+   width: 300%;
+ }
+ to {
+   margin-left: 0%;
+   width: 100%;
+ }
+}
+ .content1{
+   display:grid;
+   grid-template-columns:25vw 60vw;
+  font-size: 2vw;
+  margin-top: 1vh;
+  padding-top: 10vh;
+   /* margin-right: 4vw; */
+  color:#f48e08;
+}
+@keyframes slidein2 {
+ from {
+   margin-left: 100%;
+   width: 300%;
+ }
+ to {
+   margin-left: 13%;
+   width: 100%;
+ }
+}
+.content1 h3{
+  /* padding-left:200px; */
+  color:silver;
+  margin-top:-3vh;
+  font-size: 4vw;
+  margin-left: 25%;
+  border-bottom: 2px solid white;
+  border-radius: 30%;
+  text-shadow: 4px 4px 3px blue;
+  letter-spacing: .5vw;
+  text-align: center;
+  padding-top: -20vw;
+  transition-delay: 1s;
+ animation-duration: 1.3s;
+ animation-name: slidein2;
+}
+.content1 h3:hover{
+  transition-delay: .1s;
+  letter-spacing: 1vw;
+  transition: letter-spacing 1s;
+  transition-timing-function: ease-in-out;
+}
+.content1 p{
+  margin-left:5vw;
+  word-spacing: .2vw;
+  line-height: 5vh;
+  /* margin-right:10vw; */
+}
+.content2 h3{
+  color:silver;
+  margin-top: 5%;
+  border-bottom:2px solid white;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  margin-left:25%;
+  margin-right:25%;
+  letter-spacing: .5vw;
+  font-size:4vw;
+  text-shadow: 4px 4px 3px blue;
+  text-align: center;
+}
+.content2 h3:hover{
+  transition-delay: 0;
+  letter-spacing: 1vw;
+  transition: letter-spacing 1s;
+  transition-timing-function: ease-in-out;
+}
+/* Introduction grid1 */
+.content3{
+  padding-left:15vw;
+  /* padding-right:10vw; */
+  margin-right: 10vw;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  margin-right: 5vw;
+  grid-gap: 4vw;
+  /* background-color: #2196F3; */
+}
+.grid > div{
+  margin-right:10vw;
+}
+.content4 h3{
+color:silver;
+border-bottom:2px solid white;
+border-bottom-left-radius: 30%;
+border-bottom-right-radius: 30%;
+margin-left:28%;
+margin-top:10%;
+margin-right:30%;
+letter-spacing: .5vw;
+font-size:4vw;
+text-shadow: 4px 4px 3px blue;
+text-align: center;
+}
+.content4 h3:hover{
+  transition-delay: 0;
+  letter-spacing: 1vw;
+  transition: letter-spacing 1s;
+  transition-timing-function: ease-in-out;
+}
+.content4  h1{
+  margin-top: 5vw;
+  text-align: center;
+  letter-spacing: .2vw;
+  text-decoration: underline;
+  color:green;
+  font-size:3vw;
+  text-shadow: 8px 4px 2px rgba(0,0,0,0.4),
+               8px 20px 23px rgba(0,0,0,0.4),
+               8px 23px 25px rgba(0,0,0,0.4)
+}
+.edu  {
+  text-decoration: none;
+  font-weight: 700;
+  padding-left:6vw;
+  color:#ff002a;
+  letter-spacing: .5vw;
+  font-size: 2.2vw;
+  text-shadow: 8px 4px 2px rgba(0,0,0,0.4),
+               8px 10px 3px rgba(0,0,0,0.4),
+               8px 15px 15px rgba(0,0,0,0.4)
+}
+.edu a{
+  color:silver;
+  letter-spacing: .4vw;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 8px 4px 2px rgba(0,0,0,0.4),
+               8px 10px 3px rgba(0,0,0,0.4),
+               8px 15px 15px rgba(0,0,0,0.4)
+}
+.footer p{
+  border:.5px dashed white;
+  border-radius: 2vw;
+  /* background-color: white; */
+  color:green;
+  margin-right: 3vw;
+  padding-top:1vh;
+  margin-top: 10vh;
+  font-size: 2vw;
+  text-align: center;
+  padding-bottom: 1vh;
+}

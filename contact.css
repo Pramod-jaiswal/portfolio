@@ -1,0 +1,165 @@
+body{
+  background-image: url(https://wallpaper-house.com/data/out/9/wallpaper2you_318219.jpg);
+  background-color: black;
+  height:100%;
+  width: auto;
+  margin-left:3vw;
+  margin-right: 3VW;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  border:2px solid white;
+  padding:2vw 2vw;
+  border-radius:2vw;
+}
+#active {
+  color:#1109f4;
+  border:.5px solid blue;
+  background-color: #ace2e2;
+   border-radius: 10px;
+  text-shadow: 2px 2px blue;
+  transition-delay: 0;
+  letter-spacing: .4vw;
+  transition: letter-spacing .5s;
+  transition-timing-function: ease-in;
+}
+/* positioning of nav bar */
+.nav a{
+  /* border:.5px solid blue;
+  border-radius: 2px; */
+  letter-spacing: .1vw;
+  display:inline;
+  /* margin-right:1vw; */
+  text-decoration: none;
+  font-size: 2.5vw;
+   font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  padding-left: 2vw;
+  padding-right: 1vw;
+  color:blue;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.4)
+}
+.nav .logo{
+  margin-left:0;
+
+  font-size: 3vw;
+   font-family: 'Lobster', cursive;
+  font-weight: 400;
+  padding-right: 8vw;
+  /* margin-right: .5vw; */
+  float: left;
+  color:#e01f1f;
+  text-shadow: 8px 4px 2px rgba(0,0,0,0.4),
+               8px 20px 23px rgba(0,0,0,0.4),
+               8px 23px 25px rgba(0,0,0,0.4)
+}
+.nav{
+  /* border: .5px solid #a0bbe8; */
+border-radius: 1vw;
+ background-color:white;
+ opacity: .8;
+  /* position: fixed; */
+  padding-left: 1vw;
+  /* margin-top:3vh; */
+  padding-right: 1vw;
+  padding-top: .5vw;
+  padding-bottom: .6vh;
+  box-shadow: 1px 2px 2px #a0bbe8;
+}
+.nav li{
+    text-align: center;
+  display:inline;
+ }
+ /*effects on nav when hover*/
+.nav li a:hover{
+  color:#1109f4;
+  border:.5px solid blue;
+  background-color: #ace2e2;
+   border-radius: 10px;
+  text-shadow: 2px 2px blue;
+  transition-delay: 0;
+  letter-spacing: .8vw;
+  transition: letter-spacing .5s;
+  transition-timing-function: ease-in;
+}
+.nav{
+  transition-delay: 1s;
+ animation-duration: 1.3s;
+ animation-name: slidein;
+}
+/* slidein of navigation bar */
+@keyframes slidein {
+ from {
+   margin-left: 100%;
+   width: 300%;
+ }
+ to {
+   margin-left: 0%;
+   width: 100%;
+ }
+}
+.content1 h1{
+  color:silver;
+  margin-top: 5%;
+  border-bottom:2px solid white;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  margin-left:15%;
+  margin-right:15%;
+  letter-spacing: .5vw;
+  font-size:4vw;
+  text-shadow: 4px 3px 3px blue;
+  text-align: center;
+}
+.content1 h1:hover{
+  transition-delay: .1s;
+  letter-spacing: 1vw;
+  transition: letter-spacing 1s;
+  transition-timing-function: ease-in-out;
+}
+.grid3 .tag {
+  /* padding-left:15vw; */
+  color:red;
+  letter-spacing: .5vw;
+  font-size: 2.5vw;
+  text-decoration: none;
+  font-weight: 700;
+  padding-left:3vw;
+  color:#ff002a;
+  letter-spacing: .5vw;
+  font-size: 2.2vw;
+  text-shadow: 8px 4px 2px rgba(0,0,0,0.4),
+               8px 10px 3px rgba(0,0,0,0.4),
+               8px 15px 15px rgba(0,0,0,0.4)
+}
+.grid3{
+  display: grid;
+  margin-left: 8vw;
+  grid-template-columns: 22% 70%;
+  /* color:rgba(0,255,0,.5); */
+  letter-spacing: .4vw;
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 8px 4px 2px rgba(0,0,0,0.4),
+               8px 10px 3px rgba(0,0,0,0.4),
+               8px 15px 15px rgba(0,0,0,0.4)
+
+}
+.grid-element{
+  font-size: 2vw;
+  text-align: center;
+  color:white;
+  letter-spacing: .4vw;
+}
+.footer{
+
+  font-size: 2vw;
+  display:grid;
+  text-align: center;
+  margin-left:20vw;
+  margin-right: 20vw;
+  grid-template-columns: auto auto auto auto;
+}

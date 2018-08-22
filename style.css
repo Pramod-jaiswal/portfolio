@@ -1,0 +1,102 @@
+body{
+  height: 100%;
+  background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/background-portfolio.png);
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* styling of domain */
+.domain{
+  /* margin-top: -.25vh; */
+  letter-spacing: .3vw;
+  padding-right: 38vw;
+  margin-bottom: 2vh;
+  text-align: center;
+  font-size: 2vw;
+  color:white;
+  /* padding-bottom: 20vw; */
+}
+/* styling of name */
+.name{
+  padding-right: 30vw;
+  margin-top:2vw;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-top: 10vh;
+  color:#e50725;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 5vw;
+  letter-spacing: .5vw;
+  transition-delay: 1s;
+ animation-duration: 2s;
+ animation-name: name;
+ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+              0px 8px 13px rgba(0,0,0,0.1),
+              0px 18px 23px rgba(0,0,0,0.4) ;
+}
+/* styiling of name when hover */
+.name:hover{
+  transition-delay: .1s;
+  letter-spacing: 1vw;
+  transition: letter-spacing 1s;
+  transition-timing-function: ease-in-out;
+}
+/* styiling of button */
+.page .button{
+   margin-left: 25vw;
+   color:black;
+   font-family: 'Dancing Script', cursive;
+   font-weight: 700;
+   background-color: white;
+   font-size:2.5vw;
+  text-decoration: none;
+  border:1px solid #2f8ce2;
+  box-shadow: 2px 6px 6px black;
+  background-color: #09e8bf;
+  padding:.2vw 1vw;
+  border-radius: 1vw;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.4) ;
+}
+.button:hover{
+  color:blue;
+}
+.qoute{
+/* font-family: 'Lobster', cursive; */
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 10vw;
+  padding-top:18vh;
+  font-size: 3vw;
+  color:orange;
+  transition-delay: 1s;
+ animation-duration: 2s;
+ animation-name: slide;
+ letter-spacing: .2vw;
+ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+              0px 8px 13px rgba(0,0,0,0.1),
+              0px 18px 23px rgba(0,0,0,0.4) ;
+}
+@keyframes slide {
+from{
+  padding-left:0vw;
+  letter-spacing: normal;
+}
+to{
+   padding-left:10vw;
+   letter-spacing: .2vw;
+}
+}
+@keyframes name {
+from{
+     padding-right:0;
+}
+to{
+  padding-right:30Svw;
+
+}
+}
